@@ -1,0 +1,14 @@
+RENDER DEPLOYMENT SETTINGS:
+
+When creating web service on Render, use these:
+
+Build Command:
+pip install -r requirements.txt
+
+Start Command:
+gunicorn server:app
+
+That's it! Render will auto-detect Python and deploy.
+
+After deployment, copy your URL (e.g., https://yt-downloader-xyz.onrender.com)
+and update extension/popup.js line 17 with that URL.
