@@ -39,6 +39,7 @@ def build_yt_dlp_options(download_dir: Path, target_format: str) -> Dict[str, An
         "outtmpl": str(download_dir / "%(title)s.%(ext)s"),
         "restrictfilenames": True,
         "noplaylist": True,
+        "extractor_args": {"youtube": {"player_client": ["android", "web"]}},
     }
 
     if target_format == "MP4":
