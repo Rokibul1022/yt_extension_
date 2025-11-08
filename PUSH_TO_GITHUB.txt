@@ -1,0 +1,16 @@
+PUSH TO GITHUB - FOLLOW THESE STEPS:
+
+1. Go to https://github.com/new
+2. Create a new repository named "yt-downloader-ext"
+3. Don't initialize with README (we already have files)
+4. Click "Create repository"
+
+5. Copy the commands GitHub shows and run in terminal:
+
+git remote add origin https://github.com/YOUR-USERNAME/yt-downloader-ext.git
+git branch -M main
+git push -u origin main
+
+Replace YOUR-USERNAME with your actual GitHub username!
+
+DONE! Your code is now on GitHub.
