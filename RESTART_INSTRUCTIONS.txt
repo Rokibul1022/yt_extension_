@@ -1,0 +1,12 @@
+FFmpeg installed successfully!
+
+NEXT STEPS:
+
+1. Close your current terminal/command prompt completely
+2. Open a NEW terminal/command prompt
+3. Navigate to: cd c:\Users\User\Desktop\yt-downlaoder-ext
+4. Run: python server.py
+5. Test your extension - both MP4 and MP3 should work now
+
+The PATH was updated but your current terminal doesn't see it yet.
+You MUST restart the terminal for ffmpeg to be recognized.
