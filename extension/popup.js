@@ -14,7 +14,7 @@ document.getElementById('download').addEventListener('click', async () => {
   status.style.display = 'none';
 
   try {
-    const response = await fetch('http://localhost:5000/download', {
+    const response = await fetch('https://yt-extension-0drm.onrender.com/download', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url, format })

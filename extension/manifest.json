@@ -9,6 +9,7 @@
     "default_icon": "icon.svg"
   },
   "host_permissions": [
-    "http://localhost:5000/*"
+    "http://localhost:5000/*",
+    "https://yt-extension-0drm.onrender.com/*"
   ]
 }
